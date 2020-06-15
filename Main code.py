@@ -1,3 +1,7 @@
+################################
+# Whole Code For Youtube Video #
+################################
+
 import time
 import pygame
 import sys
@@ -414,13 +418,13 @@ def pygame_MouseButtonClick(a):
     return a
 run = True
 while run:
-    # Display 9*9 Table
+    # Display 3*3 Table
     pygame.draw.line(win, (0,0,0), (0,200), (600,200))
     pygame.draw.line(win, (0,0,0), (0,400), (600,400))
     pygame.draw.line(win, (0,0,0), (200,0), (200,600))
     pygame.draw.line(win, (0,0,0), (400,0), (400,600))
     pygame.draw.line(win, (0, 0, 0), (0,600), (600, 600))
-    # End of Display 9*9 Table
+    # End of Display 3*3 Table
 
     #for a in range(8):
     for event in pygame.event.get():
